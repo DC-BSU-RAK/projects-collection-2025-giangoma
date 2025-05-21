@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ltuhome"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="151dp"
+        android:layout_height="36dp"
+        android:text="[Name]"
+        android:textColor="#FFFFFF"
+        android:textSize="37sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <ImageButton
+        android:id="@+id/infoButton"
+        android:layout_width="47dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="176dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Info"
+        android:scaleType="fitXY"
+        android:src="@drawable/infobtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/settingsButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+    <ImageButton
+        android:id="@+id/settingsButton"
+        android:layout_width="41dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Settings"
+        android:scaleType="fitXY"
+        android:src="@drawable/settingbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn4"
+        app:layout_constraintVertical_bias="0.953" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="72dp"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="32dp"
+        android:backgroundTint="#504540"
+        android:text="Read"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="72dp"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="32dp"
+        android:backgroundTint="#504540"
+        android:text="Read"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="72dp"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="32dp"
+        android:backgroundTint="#504540"
+        android:text="Read"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="72dp"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="32dp"
+        android:backgroundTint="#504540"
+        android:text="Read"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
